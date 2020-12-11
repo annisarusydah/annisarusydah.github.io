@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisa Fresh Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <header class="sticky">
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#banner" onclick="toggleMenu();">HOME</a></li>
+                <li><a href="#about" onclick="toggleMenu();">ABOUT</a></li>
+                <li><a href="#produk" onclick="toggleMenu();">PRODUK</a></li>
+                <li><a href="#paket" onclick="toggleMenu();">PAKET</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">CONTACT</a></li>
+            </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>NISA FRESH SHOP</h2>
+            <p>Menyediakan Sayur dan Buah Segar</p>
+                <a href="#contact" class="btn">Info & Pemesanan</a>
+        </div>
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="about-text">
+                    <h2 class="titleText"><span>A</span>bout</h2>
+                    <p>Nisa Fresh Shop merupakan sebuah layanan jual beli sayur dan buah online yang menyediakan sayur dan buah segar dengan kualitas terbaik yang langsung dari pasar induk.<br/>Bunda butuh sayur dan buah dalam jumlah banyak dan tanpa perlu keluar rumah ? Yaa, <b>Nisa Fresh Shop solusinya...</b></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="about-img"><img src="logo.jpg" class="img-responsive" alt="Toko" width="440" height="250"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="produk" id="produk">
+        <div class="title">
+            <h2 class="titleText"><span>P</span>roduk</h2>
+        </div>
+        <div class="contents">
+            <div class="row">
+                <h3 class="text">
+                    SAYUR
+                </h3>
+                <div class="imgBx">
+                    <img src="SAYUR.jpg">
+                </div>
+                <div class="title">
+                    <a href="detail_sayur.html" class="btn">DETAIL</a>
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="text">
+                    BUAH
+                </h3>
+                <div class="imgBx">
+                    <img src="BUAH.jpg">
+                </div>
+                <div class="title">
+                    <a href="detail_buah.html" class="btn">DETAIL</a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="paket" id="paket">
+        <div class="contents">
+            <h2 class="titleText"><span>P</span>aket <span>H</span>emat</h2>
+            <p>Kami juga menyediakan paket-paket hemat untuk para pelanggan Nisa Fresh Shop dengan harga termurah</p><br><br>
+
+            <table class="table">
+                <tr>
+                    <th>
+                        PAKET
+                    </th>
+                    <th>
+                        JENIS SAYUR
+                    </th>
+                    <th>
+                        SYARAT & KETENTUAN PEMBELIAN
+                    </th>
+                    <th>
+                        HARGA
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Cabai Rawit
+                    </td>
+                    <td>
+                        Minimal 1 Karung
+                    </td>
+                    <td>
+                        Rp. 500.000
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Kentang
+                    </td>
+                        <td>
+                        Minimal 1 Karung
+                    </td>
+                    <td>
+                        Rp. 160.000
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Timun
+                    </td>
+                    <td>
+                        Minimal 10 kg
+                    </td>
+                    <td>
+                        Rp. 70.000
+                    </td>
+                </tr>
+                <tr">
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        Sawi Putih
+                    </td>
+                    <td>
+                        Minimal 10 kg
+                    </td>
+                    <td>
+                        Rp. 90.000
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        Wortel Import
+                    </td>
+                    <td>
+                        Minimal 10 kg
+                    </td>
+                    <td>
+                        Rp. 140.000
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="footer-col middle">
+                    <h2>CABANG TOKO KAMI</h2><br>
+                    <ul>
+                        <li>Jakarta</li>
+                        <li>Tangerang</li>
+                        <li>Depok</li>
+                    </ul>
+                </div>
+            </div> <!-- end of col -->
+            <div class="col-xs-12 col-md-6" id="contact">
+                <div class="footer-col last">
+                    <h2>CONTACT</h2><br>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+62895-4129-28404</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">annisarusydah333@gmail.com</span>
+                    </div>
+                </div> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div>
+
+    <div class="copyrightText">
+        <p>Copyright 2020 <a>Online Tutorials</a>. All Right Recerved</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu()
+        {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
